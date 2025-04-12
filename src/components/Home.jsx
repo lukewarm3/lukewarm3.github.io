@@ -6,6 +6,8 @@ import SplitText from "../TextAnimations/SplitText/SplitText";
 import { WordRotate } from "./magicui/word-rotate";
 import { ShimmerButton } from "./magicui/shimmer-button";
 import { Ripple } from "./magicui/ripple";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 const description =
   "I am a dedicated and highly passionate Greater China Scholar pursuing a Bachelor of Science degree in Computer Science at the University of Notre Dame. I love playing with programming and modern applications, with experience of web development, game development, and machine learning. I also have a broad range of interests of drawing, cooking, basketball, dancing, working out ... ";
@@ -98,6 +100,36 @@ const Home = () => {
                 }}
               />
             </div>
+          </div>
+
+          {/* Social links section */}
+          <div className="flex justify-center items-center">
+            <button
+              onClick={() =>
+                window.open("https://github.com/lukewarm3", "_blank")
+              }
+              className="p-2 hover:scale-125 transform transition-all duration-200"
+              style={{
+                background: "transparent",
+                border: "none",
+                cursor: "pointer",
+              }}
+            >
+              <FaGithub size={40} />
+            </button>
+            <button
+              onClick={() =>
+                window.open("https://www.linkedin.com/in/luke-cao-student/", "_blank")
+              }
+              className="p-2 hover:scale-125 transform transition-all duration-200"
+              style={{
+                background: "transparent",
+                border: "none",
+                cursor: "pointer",
+              }}
+            >
+              <FaLinkedin size={40} />
+            </button>
           </div>
 
           <h1 className="name">

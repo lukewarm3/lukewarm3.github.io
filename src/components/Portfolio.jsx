@@ -6,6 +6,7 @@ import gigworker from "../img/gig-worker.png";
 import { motion } from "framer-motion";
 import UISAE from "./UISAE";
 import MomARks from "./MomARks";  
+import Distributed from "./Distributed";
 
 const Portfolio = () => {
   return (
@@ -45,6 +46,17 @@ const Portfolio = () => {
           }}
         >
           <MomARks />
+        </div>
+        <div
+          style={{
+            position: "relative",
+            width: "100%",
+            height: "100vh",
+            margin: "0 auto 80px auto",
+            overflow: "visible",
+          }}
+        >
+          <Distributed />
         </div>
       </div>
     </section>

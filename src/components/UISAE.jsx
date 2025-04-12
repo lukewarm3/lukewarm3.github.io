@@ -82,14 +82,13 @@ export default function UISAE() {
           width: "40%",
           textAlign: "center",
           fontWeight: "bold",
-          color: "#cfc79b",
           padding: "10px",
         }}
       >
-        <ShinyHeader text="AI/ML Research" className="mb-4" />
-        <p>
+        <ShinyHeader text="AI/ML Research" className="mb-4 text-#cfc79b" />
+        <p className="text-slate-600">
           Utilized Direct SAE and SSAE frameworks leveraging UI embeddings to
-          uncover latent design patterns.
+          uncover latent design patterns (typography, layout, color). Prepare the data, fine-tune the image embedding model, and run the SAE.
         </p>
       </div>
       {/* Center OpenAI icon */}

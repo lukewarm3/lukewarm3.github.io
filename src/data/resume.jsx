@@ -24,7 +24,7 @@ export const DATA = {
       logoUrl: social,
       start: "May 2024",
       end: "August 2024",
-      description: "Build and launch a mobile non-toxic social media app.",
+      description: "Co-led development of a nontoxic social media app, building backend features like post and AI image generation while managing developers and optimizing cross-device support with AWS and DynamoDB.",
     },
     {
       company: "Lucy Family Institute for Data & Society",
@@ -36,7 +36,7 @@ export const DATA = {
       start: "May 2024",
       end: "August 2024",
       description:
-        "Privacy Sandbox Project (web privacy analysis tool) and VISAR Project (writing assistant tool for ND students)",
+        "Privacy Sandbox Project: Developed a high-efficiency web data collection system and interactive UI to study how browser privacy impacts personalized advertisements.\nVISAR Project: Built features for an AI-powered writing assistant that helps students generate thesis statements from selected text, with a user-friendly UI and automated deployment pipeline.",
     },
     {
       company: "ND Computer Science",
@@ -48,7 +48,7 @@ export const DATA = {
       start: "January 2024",
       end: "Present",
       description:
-        "Teaching assistance for Data Structure, System Programming, and later Operating System",
+        "Teaching assistant for Data Structure, \nTeaching assistant for System Programming, \nTeaching assistant for Operating System",
     },
   ],
 };

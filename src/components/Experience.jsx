@@ -26,7 +26,7 @@ const Experience = () => {
     <section className="container" id="experience">
       <div className="blogs-content">
         <motion.div
-          className="main-title"
+          className="main-title mb-[100px]"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
@@ -38,11 +38,10 @@ const Experience = () => {
         </motion.div>
 
         <motion.div
-          style={{ width: "50%", margin: "0 auto" }}
+          style={{ width: "60%", margin: "0 auto" }}
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true }}
         >
           {DATA.work.map((work, id) => (
             <motion.div key={work.company} variants={itemVariants}>

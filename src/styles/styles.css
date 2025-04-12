@@ -418,6 +418,22 @@ section {
   gap: 40px;
   padding-left: calc(50vw - 350px);
   padding-right: calc(50vw - 350px);
+  scrollbar-width: auto; /* For Firefox */
+  scrollbar-color: var(--color-secondary) transparent; /* For Firefox */
+  position: relative;
+}
+
+.portfolios::-webkit-scrollbar {
+  height: 8px; /* Height of the scrollbar */
+}
+
+.portfolios::-webkit-scrollbar-track {
+  background: transparent; /* Track color */
+}
+
+.portfolios::-webkit-scrollbar-thumb {
+  background-color: var(--color-grey-2); /* Thumb color */
+  border-radius: 4px;
 }
 /* .portfolios .portfolio-item {
   position: relative;

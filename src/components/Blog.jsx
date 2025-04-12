@@ -12,6 +12,7 @@ import basketball from "../img/basketball.jpg";
 import basketball2 from "../img/basketball2.jpg";
 import dancing from "../img/dancing.jpg";
 import { motion, useScroll, useTransform } from "framer-motion";
+import { FaArrowLeft } from "react-icons/fa";
 
 const portfolios = [
   portrait,
@@ -71,6 +72,20 @@ const Blog = () => {
         Working Out
       </p>
       <div className="portfolios" ref={containerRef}>
+        <motion.div
+          animate={{
+            x: [-30, 0],
+          }}
+          transition={{
+            duration: 1,
+            repeat: Infinity,
+            repeatType: "reverse",
+            ease: "easeInOut",
+          }}
+          style={{ position: "absolute", left: "20%", top: "50%", transform: "translateY(-50%)" }} 
+        >
+          <FaArrowLeft size={40} color="#cfc79b"/>
+        </motion.div>
         {portfolios.map((portfolio, index) => (
           <MotionImage
             key={index}

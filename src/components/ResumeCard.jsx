@@ -60,9 +60,9 @@ function ResumeCard({
         viewport={{ once: true }}
         transition={{ duration: 1.0, ease: [0.16, 1, 0.3, 1] }}
       >
-        <Card className="flex mb-4">
+        <Card className="flex mb-10 justify-center items-center">
           <div className="flex-none">
-            <Avatar className="border h-12 w-12 m-auto rounded-full overflow-hidden">
+            <Avatar className="border h-16 w-16 m-auto rounded-full overflow-hidden">
               <AvatarImage
                 src={logoUrl}
                 alt={altText}
@@ -76,7 +76,7 @@ function ResumeCard({
           <div className="flex-grow ml-4 items-center flex-col group">
             <CardHeader>
               <div className="flex items-center justify-between gap-x-2 text-base">
-                <h3 className="inline-flex items-center justify-center font-semibold leading-none text-xs sm:text-sm">
+                <h3 className="inline-flex items-center justify-center font-semibold leading-none text-xs sm:text-lg">
                   {title}
                   {badges && (
                     <span className="inline-flex gap-x-1">
@@ -115,7 +115,7 @@ function ResumeCard({
                   duration: 0.7,
                   ease: [0.16, 1, 0.3, 1],
                 }}
-                className="mt-2 text-xs sm:text-sm"
+                className="mt-2 text-xs sm:text-sm whitespace-pre-wrap"
               >
                 {description}
               </motion.div>
