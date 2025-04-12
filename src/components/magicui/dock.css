@@ -1,0 +1,57 @@
+/* Add necessary utility classes that might be missing from Tailwind config */
+.size-6 {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+/* Fix for backdrop-blur support detection */
+@supports (backdrop-filter: blur(8px)) {
+  .supports-backdrop-blur\:bg-white\/10 {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .supports-backdrop-blur\:dark\:bg-black\/10 {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .backdrop-blur-md {
+    backdrop-filter: blur(12px);
+  }
+}
+
+/* Basic styles for Dock if backdrop-blur is not supported */
+.bg-white\/20 {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.dark\:bg-black\/20 {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.bg-white\/10 {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.dark\:bg-black\/10 {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.hover\:bg-white\/20:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.dark .dark\:hover\:bg-black\/20:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.border-neutral-200 {
+  border-color: rgb(229, 229, 229);
+}
+
+.dark .dark\:border-neutral-800 {
+  border-color: rgb(38, 38, 38);
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
+}
