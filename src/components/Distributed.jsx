@@ -37,7 +37,7 @@ const Distributed = () => {
           <div className="row-span-4 text-slate-600 text-bold">
             <SpotlightCard
               className="custom-spotlight-card h-full shadow-lg"
-              spotlightColor="rgba(0, 229, 255, 0.3)"
+              spotlightColor="rgba(207, 199, 155, 0.8)"
             >
               Designed a <strong>distributed, auto-scaled, and load-balanced</strong> data store
               using <strong>Chord and consistent hashing</strong>, with <strong>Kubernetes-based scaling</strong>,
@@ -48,7 +48,7 @@ const Distributed = () => {
           <div className="row-span-8">
             <SpotlightCard
               className="custom-spotlight-card h-full shadow-lg"
-              spotlightColor="rgba(0, 229, 255, 0.3)"
+              spotlightColor="rgba(207, 199, 155, 0.8)"
             >
               <div className="spotlight-content">
                 <h2>System Architecture</h2>
@@ -71,7 +71,7 @@ const Distributed = () => {
         <div className="col-span-6">
           <SpotlightCard
             className="custom-spotlight-card h-full shadow-lg"
-            spotlightColor="rgba(0, 229, 255, 0.3)"
+            spotlightColor="rgba(207, 199, 155, 0.8)"
           >
             <div className="spotlight-content">
               <h2>System Architecture</h2>
